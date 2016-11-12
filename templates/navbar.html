@@ -1,0 +1,25 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <h1 class="top-link"><a class="navbar-brand" href="http//www.p4w5.eu/">uninoten</a></h1>
+        </div>
+
+        <ul class="nav navbar-nav navbar-left">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Noten
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="nav-divider"></li>
+            {% for fach in facher %}
+            <li><a href="{{ CONST.url }}{{ fach.files }}">{{ fach.title }} - Grundstudium</a></li>
+            <li class="nav-divider"></li>
+            {% if fach.vertiefungen %}
+                {% for vertiefung in fach.vertiefungen %}
+                    <li><a href="{{ CONST.url }}{{ fach.id }}_{{ vertiefung.id }}">Hauptstudium - {{ vertiefung.title }}</a></li>
+                {% endfor %}
+            {% endif %}
+            <li class="nav-divider"></li>
+
+          {% endfor %}
+        </ul>
+    </div>
+</nav>

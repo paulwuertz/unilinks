@@ -1,36 +1,45 @@
 [
   {
-    "id":"ist",
-    "title":"Informationssystemtechnik"
-  },
-
-  {
     "id":"et",
-    "title":"Elektrotechnik"
+    "title":"Elektrotechnik",
+    "files":"et_gs",
+    "vertiefungen":[
+          {
+            "id":"it",
+            "title":"Informationstechnik",
+            "files":"et_it"
+          },
+          {
+            "id":"mel",
+            "title":"Mikroelektronik",
+            "files":"et_mel"
+          },
+          {
+            "id":"eet",
+            "title":"Elektroenergietechnik",
+            "files":"et_eet"
+          },
+          {
+            "id":"amr",
+            "title":"Automatisierungstechnik",
+            "files":"et_amr"
+          },
+          {
+            "id":"gmm",
+            "title":"Geräte- und Medizintechnik",
+            "files":"et_gmm"
+          }
+    ]
+  },
+  {
+    "id":"ist",
+    "title":"Informationssystemtechnik",
+    "files":"ist_gs"
   },
 
   {
-    "id":"it",
-    "title":"Informationstechnik"
-  },
-
-  {
-    "id":"mel",
-    "title":"Mikroelektronik"
-  },
-
-  {
-    "id":"eet",
-    "title":"Elektroenergietechnik"
-  },
-
-  {
-    "id":"at",
-    "title":"Automatisierungstechnik"
-  },
-
-  {
-    "id":"gmm",
-    "title":"Geräte- und Medizintechnik"
+    "id":"psy",
+    "title":"Psychologie",
+    "files":"psy_ba"
   }
 ]

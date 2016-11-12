@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block style %}
+    <link rel="stylesheet" href="{{ CONST.url }}static/bootstrap-slider.min.css" />
+{% endblock style %}
+{% block content %}
+
+<div class="alert alert-dismissible alert-success">
+  <button type="button" class="close" data-dismiss="alert">×</button>
+  <strong>Die Berechnung wird übrigens in der URL gespeichert. Keine Daten werden zum Server gesendet, 100% anonym.</strong><br>
+  Wenn du deine Ergebnisse sichern willst, dann kopiere den Link und rufe ihn das nächste mal mit deinen URL Parametern auf.<br>
+  Um die Note zu berechnen wird einfach alles Gewichtet nach Credits addiert, also Mathe I macht 11/108 deiner Note im Vordiplom aus. So steht es im Anhang von der <a href="https://tu-dresden.de/ing/elektrotechnik/studium/beratung-und-service/studiendokumente-und-ordnungen">DPO</a><br>
+</div>
+
+<form class="form-horizontal">
+<fieldset>
+
+  <div class="form-group">
+    <label for="usr">Deine persönliche URL:</label>
+    <input type="text" class="form-control" id="usrURL">
+  </div>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <div class="row">
+    <div class="col-xs-2">
+        <h5>Modulname</h5>
+    </div>
+    <div class="col-xs-8">
+        <h5>Note</h5>
+    </div>
+    <div class="col-xs-1">
+        <h5>Credits</h5>
+    </div>
+    <div class="col-xs-1">
+        <h5>Multipl.</h5>
+    </div>
+  </div>
+
+  {% for item in data %}
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              {{ item["name"] }}
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            {% set o_loop = loop %}
+              <input id="slider{{ o_loop.index0 }}" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits{{ o_loop.index0 }} noten-col col-md-1">
+              {{ item["credits"] }}
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul{{o_loop.index0}}" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  {% endfor %}
+      <hr><hr>
+
+      <div class="row">
+        <div class="col-xs-2">
+            <h5>SUMME</h5>
+        </div>
+        <div class="col-md-8">
+        </div>
+        <div class="noten-col col-xs-1">
+            <input id="sumC" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+        </div>
+        <div class="noten-col col-xs-1">
+            <input id="sum" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-2">
+            <h5>ENDNOTE</h5>
+        </div>
+        <div class="col-xs-8">
+        </div>
+        <div class="col-xs-1">
+        </div>
+        <div class="noten-col col-xs-1">
+            <input id="res" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+        </div>
+      </div>
+
+      <hr>
+
+
+</fieldset>
+</form>
+
+{% block script %}
+<script type="text/javascript">var notenrows={{data|length}};</script>
+<script type="text/javascript" src="{{ CONST.url }}static/bootstrap-slider.min.js"></script>
+<script type="text/javascript" src="{{ CONST.url }}static/noten.js"></script>
+{% endblock script %}
+
+
+{% endblock content %}

@@ -1,0 +1,145 @@
+[
+        {
+          "name":"Aufbau- und Verbindungstechnik der Elektronik",
+          "credits":4,
+          "modul":"ET-12-06-02",
+          "semester":[5,6]
+        },
+        {
+          "name":"Integrierte Analogschaltungen",
+          "credits":4,
+          "modul":"ET-12-08-12",
+          "semester":[5]
+        },
+        {
+          "name":"Physik ausgewählter Bauelemente",
+          "credits":6,
+          "modul":"ET-12-08-13",
+          "semester":[5,6]
+        },
+        {
+          "name":"Mikrosystem- und Halbleitertechnologie",
+          "credits":12,
+          "modul":"ET-12-12-01",
+          "semester":[5,6]
+        },
+        {
+          "name":"Rechnergestützter Schaltkreisentwurf",
+          "credits":8,
+          "modul":"ET-12-08-23",
+          "semester":[5,6]
+        },
+        {
+          "name":"Hauptseminar Mikroelektronik",
+          "credits":4,
+          "modul":"ET-12-08-15",
+          "semester":[5,6]
+        },
+
+
+
+
+              {
+                "name":"Schaltungstechnik",
+                "modul":"ET-12-08-04",
+        		    "credits":10,
+                "praktikum":true,
+                "url":{
+                    "Website":"http://ccn.et.tu-dresden.de/index.php?id=ccn_edu_as",
+                    "Praktikum":"http://ccn.et.tu-dresden.de/index.php?id=294"
+                },
+                "semester":[4,5]
+              },
+              {
+                "name":"Numerische Mathematik",
+                "modul":"ET-12-02-02",
+        		    "credits":4,
+                "url":{
+                    "Website":"https://tu-dresden.de/ing/elektrotechnik/eti/te/studium/lehrveranstaltungen"
+                },
+                "semester":[5]
+              },
+              {
+                "name":"Theoretische Elektrotechnik",
+                "modul":"ET-12-02-01",
+        		    "credits":10,
+                "url":{
+                    "TET I":"https://tu-dresden.de/ing/elektrotechnik/eti/te/studium/lehrveranstaltungen",
+                    "TET II":"https://tu-dresden.de/ing/elektrotechnik/eti/te/studium/lehrveranstaltungen"
+                },
+                "semester":[5,6]
+              },
+              {
+                "name":"Mess- und Sensortechnik",
+                "modul":"ET-12-08-06",
+                "praktikum":true,
+                "credits":4,
+                "url":{
+                    "Website":"https://tu-dresden.de/ing/elektrotechnik/iee/mst/studium/lehrveranstaltungen/messtechnik-2-mess-und-sensortechnik"
+                },
+                "semester":[5]
+              },
+              {
+                "name":"Diplomarbeit",
+                "modul":"ET-30-10-02-02",
+                "credits":30,
+                "url":{
+                    "Website":"http://www.math.tu-dresden.de/~kuhlisch/lehre/mathe_et_ws2015.shtml"
+                },
+                "semester":[10]
+              },
+              {
+                "name":"Studienarbeit",
+                "modul":"ET-12-STA",
+                "credits":12,
+                "url":{
+                    "Website":"http://www.math.tu-dresden.de/~kuhlisch/lehre/mathe_et_ws2015.shtml"
+                },
+                "semester":[8]
+              },
+              {
+                "name":"Wahlpflich I",
+                "modul":"ET-12-XX-XX",
+                "credits":7,
+                "url":{
+                    "Website":"http://www.math.tu-dresden.de/~kuhlisch/lehre/mathe_et_ws2015.shtml"
+                },
+                "semester":[8]
+              },
+              {
+                "name":"Wahlpflich II",
+                "modul":"ET-12-XX-XX",
+                "credits":7,
+                "url":{
+                    "Website":"http://www.math.tu-dresden.de/~kuhlisch/lehre/mathe_et_ws2015.shtml"
+                },
+                "semester":[8]
+              },
+              {
+                "name":"Wahlpflich III",
+                "modul":"ET-12-XX-XX",
+                "credits":7,
+                "url":{
+                    "Website":"http://www.math.tu-dresden.de/~kuhlisch/lehre/mathe_et_ws2015.shtml"
+                },
+                "semester":[9]
+              },
+              {
+                "name":"Wahlpflich IV",
+                "modul":"ET-12-XX-XX",
+                "credits":7,
+                "url":{
+                    "Website":"http://www.math.tu-dresden.de/~kuhlisch/lehre/mathe_et_ws2015.shtml"
+                },
+                "semester":[9]
+              },
+              {
+                "name":"Wahlpflich V",
+                "modul":"ET-12-XX-XX",
+                "credits":7,
+                "url":{
+                    "Website":"http://www.math.tu-dresden.de/~kuhlisch/lehre/mathe_et_ws2015.shtml"
+                },
+                "semester":[9]
+              }
+]

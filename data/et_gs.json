@@ -1,0 +1,179 @@
+[
+    {
+        "name":"Mathe 1",
+        "modul":"ET-01-04-01",
+        "credits":11,
+        "url":{
+            "Website":"http://www.math.tu-dresden.de/~kuhlisch/lehre/mathe_et_ws2015.shtml"
+        },
+        "semester":[1]
+      },
+      {
+        "name":"Grundlagen der Elektrotechnik",
+        "modul":"ET-12-08-01",
+        "credits":6,
+        "url":{
+          "Website":"http://www.iee.et.tu-dresden.de/iee/ge/Lehre/get.php"
+        },
+        "semester":[1]
+      },
+      {
+        "name":"Informatik",
+        "modul":"ET-11-02-01",
+        "credits":7,
+        "praktikum":true,
+        "url":{
+          "Informatik I":"https://tu-dresden.de/ing/informatik/ti/es/studium/winter-2015-16/informatik-1-fuer-et-mt-res",
+          "Informatik II":"https://tu-dresden.de/ing/informatik/ti/es/studium/sommer-2016/informatik-2-fuer-et-mt-res",
+          "Praktikum":"https://tu-dresden.de/ing/informatik/ti/es/studium/sommer-2016/informatik-2-fuer-et-mt-res/praktikum"
+        }
+        ,
+        "semester":[1,2]
+      },
+      {
+        "name":"Werkstoffe/ Technische Mechanik",
+        "modul":"ET-13-00-01",
+        "credits":7,
+        "url":{
+            "Website":"http://tu-dresden.de/Members/christian.zschalig/Lehre/algebra_fuer_ist/1516_algebra_fuer_ist"
+        },
+        "semester":[1,2]
+      },
+      {
+        "name":"Naturwissenschaftliche Grundlagen",
+        "modul":"ET-02-06-04-05",
+        "credits":7,
+        "url":{
+            "Website":"https://tu-dresden.de/mn/physik/iap/hlp/studium/lehrveranstaltungen/"
+        },
+        "semester":[1,2]
+      },
+      {
+        "name":"Geräteentwicklung",
+        "modul":"ET-12-05-01",
+        "url":{
+            "Website":"http://www.ifte.de/lehre/geraeteentwicklung/"
+        },
+        "credits":4,
+        "semester":[2]
+      },
+      {
+        "name":"Elektrische und magnetische Felder",
+        "modul":"ET-12-08-02",
+        "credits":6,
+        "url":{
+            "Website":"http://www.iee.et.tu-dresden.de/iee/ge/Lehre/emf.php"
+        },
+        "semester":[2]
+      },
+      {
+        "name":"Mathe 2",
+        "modul":"ET-01-04-02",
+        "credits":9,
+        "url":{
+            "Website":"http://www.math.tu-dresden.de/~kuhlisch/lehre/mathe_et_sos2016.shtml"
+        },
+        "semester":[2]
+      },
+      {
+        "name":"Mathe 3",
+        "modul":"ET-01-04-03",
+        "credits":4,
+        "url":{
+            "Wensch":"http://www.math.tu-dresden.de/~wensch/mainfiles/?page=mathe3",
+            "Kuhlisch":"http://www.math.tu-dresden.de/~kuhlisch/lehre/index.shtml"
+        },
+        "semester":[3]
+      },
+      {
+        "name":"Dynamische Netzwerke",
+        "modul":"ET-12-08-03",
+        "credits":8,
+        "url":{
+            "Website":"http://www.iee.et.tu-dresden.de/iee/ge/Lehre/dyn.php",
+            "Praktikum":"http://www.iee.et.tu-dresden.de/iee/ge/Lehre/prak.php"
+        },
+        "praktikum":true,
+        "semester":[3,4]
+      },
+      {
+        "name":"Systemtheorie",
+        "modul":"ET-12-09-01",
+        "credits":7,
+        "url":{
+          "Website":"http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_elektrotechnik_und_informationstechnik/ifn/tnt/lehre/vl/systh/index_html/document_view?set_language=de"
+        },
+        "semester":[3,4]
+      },
+      {
+        "name":"Elektronische Bauelemente/ Mikrotechnologie",
+        "modul":"ET-12-08-11",
+        "credits":6,
+        "url":{
+            "Bauelemente":"http://www.iee.et.tu-dresden.de/iee/eb/lehre/lv/lak/BE_ET_MOD_lak.html",
+            "Technologien":"https://tu-dresden.de/ing/elektrotechnik/ihm/studium/lehrveranstaltungen/grundstudium-elektrotechnik-1/technologien-und-bauelemente-der-mikroelektronik/grundstudium-elektrotechnik"
+        },
+        "semester":[3]
+      },
+      {
+        "name":"Mikrorechentechnik",
+        "modul":"ET-12-01-01",
+        "credits":7,
+        "url":{
+            "Praktikum I":"http://www.et.tu-dresden.de/ifa/index.php?id=mrt1",
+            "Praktikum II":"http://www.et.tu-dresden.de/ifa/index.php?id=mrt2"
+        },
+        "praktikum":true,
+        "semester":[3,4]
+      },
+      {
+        "name":"Elektroenergietechnik",
+        "modul":"ET-12-04-01",
+        "credits":5,
+        "url":{
+            "Website":"https://tu-dresden.de/ing/elektrotechnik/ieeh/studium/lehrveranstaltungen/praktika",
+            "Opal":"https://bildungsportal.sachsen.de/opal/url/RepositoryEntry/9201385478"
+        },
+        "praktikum":true,
+        "semester":[3,4]
+      },
+      {
+        "name":"Praktikum PET",
+        "modul":"ET-12-06-10",
+        "credits":3,
+        "url":{
+            "Website":"http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/smt/st/studium?leaf=1&lang=de&subject=299"
+        },
+        "praktikum":true,
+        "semester":[3]
+      },
+      {
+        "name":"Mathe 4",
+        "modul":"ET-01-04-04",
+        "credits":4,
+        "url":{
+            "Wensch":"http://www.math.tu-dresden.de/~wensch/mainfiles/?page=mathe4",
+            "Kuhlisch":"http://www.math.tu-dresden.de/~kuhlisch/lehre/index.shtml"
+        },
+        "semester":[4]
+      },
+      {
+        "name":"Automatisierungs- und Messtechnik",
+        "modul":"ET-12-01-02",
+        "credits":5,
+        "url":{
+            "Automatisierungstechnik":"http://www.et.tu-dresden.de/ifa/index.php?id=632",
+            "Messtechnik":"https://tu-dresden.de/ing/elektrotechnik/iee/mst/studium/lehrveranstaltungen/messtechnik-1-grundzuege-des-messens"
+        },
+        "semester":[4]
+      },
+      {
+        "name":"Nachrichtentechnik",
+        "modul":"ET-12-10-24",
+        "credits":3,
+        "url":{
+            "Website":"https://mns.ifn.et.tu-dresden.de/Teaching/Pages/Courses.aspx?get=15"
+        },
+        "semester":[4]
+      }
+]

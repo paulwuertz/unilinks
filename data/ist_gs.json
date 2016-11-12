@@ -1,0 +1,163 @@
+[
+  {
+        "name":"Mathe 1",
+        "credits":11,
+        "url":{
+            "Website":"http://www.math.tu-dresden.de/~kuhlisch/lehre/mathe_et_ws2015.shtml"
+        },
+        "semester":[1]
+      },
+      {
+        "name":"Grundlagen der Elektrotechnik",
+        "credits":6,
+        "url":{
+          "Website":"http://www.iee.et.tu-dresden.de/iee/ge/Lehre/get.php"
+        },
+        "semester":[1]
+      },
+      {
+        "name":"Algebra",
+        "credits":6,
+        "url":{
+            "Website":"http://www.math.tu-dresden.de/~baumann/algebra_fuer_informationssystemtechniker.html",
+            "Übung 1. Semester":"http://tu-dresden.de/Members/christian.zschalig/Lehre/algebra_fuer_ist/1516_algebra_fuer_ist",
+            "Übung 2. Semester":"http://tu-dresden.de/Members/christian.zschalig/Lehre/algebra_fuer_ist/1516_algebra_fuer_ist"
+        },
+        "semester":[1,2]
+      },
+      {
+        "name":"Algorithmen und Datenstrukturen",
+        "credits":5,
+        "url":{
+          "Website":"https://www.inf.tu-dresden.de/index.php?node_id=3692&ln=de"
+        },
+        "semester":[1]
+      },
+      {
+        "name":"Einführungspraktikum",
+        "credits":4,
+        "url":{
+          "Website":"http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/sysa/se/teaching/courses/ws/einfuehrungspraktikum_roboter_lab"
+        },
+        "semester":[1]
+      },
+      {
+        "name":"Elektrische und magnetische Felder",
+        "credits":6,
+        "url":{
+            "Website":"http://www.iee.et.tu-dresden.de/iee/ge/Lehre/emf.php"
+        },
+        "semester":[2]
+      },
+      {
+        "name":"Mathe 2",
+        "credits":9,
+        "url":{
+            "Website":"http://www.math.tu-dresden.de/~kuhlisch/lehre/mathe_et_sos2016.shtml"
+        },
+        "semester":[2]
+      },
+      {
+        "name":"Softwaretechnologie",
+        "credits":10,
+        "url":{
+            "Website":"http://st.inf.tu-dresden.de/teaching/swt"
+        },
+        "semester":[2]
+      },
+      {
+        "name":"Programmierung",
+        "credits":6,
+        "url":{
+            "Website":"https://www.inf.tu-dresden.de/index.php?node_id=3720&ln=de"
+        },
+        "semester":[2]
+      },
+      {
+        "name":"Mathe 3",
+        "modul":"ET-01-04-03",
+        "credits":4,
+        "url":{
+            "Wensch":"http://www.math.tu-dresden.de/~wensch/mainfiles/?page=mathe3",
+            "Kuhlisch":"http://www.math.tu-dresden.de/~kuhlisch/lehre/index.shtml"
+        },
+        "semester":[3]
+      },
+      {
+        "name":"Dynamische Netzwerke",
+        "modul":"ET-12-08-03",
+        "credits":8,
+        "url":{
+            "Website":"http://www.iee.et.tu-dresden.de/iee/ge/Lehre/dyn.php",
+            "Praktikum":"http://www.iee.et.tu-dresden.de/iee/ge/Lehre/prak.php"
+        },
+        "praktikum":true,
+        "semester":[3,4]
+      },
+      {
+        "name":"Systemtheorie und Automatisierungstechnik",
+        "modul":"ET-12-09-01",
+        "credits":10,
+        "url":{
+          "Automatisierungstechnik":"http://www.et.tu-dresden.de/ifa/index.php?id=632",
+          "Systemtheorie":"http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_elektrotechnik_und_informationstechnik/ifn/tnt/lehre/vl/systh/index_html/document_view?set_language=de",
+          "opal":"https://bildungsportal.sachsen.de/opal/auth/repo/go?rid=1110474793"
+        },
+        "semester":[3,4]
+      },
+      {
+        "name":"Technische Grundlagen und Hardwarepraktikum",
+        "credits":9,
+        "url":{
+            "Technische Grundlagen":"https://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/tei/vlsi/lehre/lehrmat/tg_vlsi/document_view?set_language=de",
+            "Hardwarepraktikum":"http://www.mr.inf.tu-dresden.de/?node=0e11&page=hinweise&ln=de"
+        },
+        "semester":[3,4]
+      },
+      {
+        "name":"Rechnerarchitektur",
+        "credits":10,
+        "url":{
+            "Website":"http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/tei/vlsi/lehre/lehrmat/ra_i_vlsi",
+            "Opal":"https://bildungsportal.sachsen.de/opal/url/RepositoryEntry/10894671880"
+        },
+        "semester":[3,4]
+      },
+      {
+        "name":"Elektronische Bauelemente",
+        "credits":3,
+        "url":{
+            "Website":"http://www.iee.et.tu-dresden.de/iee/eb/lehre/lv/lak/BE_ET_MOD_lak.html"
+        },
+        "semester":[3]
+      },
+      {
+        "name":"Softwaretechnologie-Projekt",
+        "credits":10,
+        "url":{
+            "Website":"https://tu-dresden.de/ing/informatik/smt/st/studium/lehrveranstaltungen?leaf=1&lang=de&subject=329&embedding_id=47eddfa7c5a54ed5be49042aff35a31b"
+        },
+        "semester":[3]
+      },
+      {
+        "name":"Mathe 4",
+        "modul":"ET-01-04-04",
+        "credits":4,
+        "url":{
+            "Wensch":"http://www.math.tu-dresden.de/~wensch/mainfiles/?page=mathe4",
+            "Kuhlisch":"http://www.math.tu-dresden.de/~kuhlisch/lehre/index.shtml"
+        },
+        "semester":[4]
+      },
+      {
+        "name":"Schaltungstechnik",
+        "modul":"ET-12-08-04",
+		    "credits":7,
+        "praktikum":true,
+        "url":{
+            "Website":"http://ccn.et.tu-dresden.de/index.php?id=ccn_edu_as",
+            "Praktikum":"http://ccn.et.tu-dresden.de/index.php?id=294"
+        },
+        "semester":[4]
+      }
+]

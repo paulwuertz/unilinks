@@ -1,0 +1,95 @@
+[
+{
+"name":"Methoden der Psychologie",
+"credits":9
+},
+{
+"name":"Deskriptive und Inferenzstatistik",
+"credits":9
+},
+{
+"name":"Multivariate Statistik",
+"credits":6
+},
+{
+"name":"Experimentalpsychologisches Arbeiten",
+"credits":7
+},
+{
+"name":"Evaluation und Metaanalyse",
+"credits":5
+},
+{
+"name":"Psychologische Diagnostik: Grundlagen",
+"credits":7
+},
+{
+"name":"Psychologische Diagnostik: Vertiefung",
+"credits":9
+},
+{
+"name":"Allgemeine Psychologie I: Kognitive Prozesse",
+"credits":9
+},
+{
+"name":"Allgemeine Psychologie II: Lernen, Gedächtnis, Emotion, Motivation",
+"credits":9
+},
+{
+"name":"Biopsychologie",
+"credits":9
+},
+{
+"name":"Entwicklungspsychologie",
+"credits":9
+},
+{
+"name":"Persönlichkeitspsychologie",
+"credits":9
+},
+{
+"name":"Sozialpsychologie",
+"credits":9
+},
+{
+"name":"Arbeits- und Organisationspsychologie",
+"credits":6
+},
+{
+"name":"Personalpsychologie",
+"credits":6
+},
+{
+  "name":"Psychologie des Lehrens und Lernens in soziotechnischen Systemen",
+  "credits":6
+},
+{
+  "name":"Verkehrspsychologie",
+  "credits":6
+},
+{
+  "name":"Ingenieurpsychologie und Angewandte Kognitionsforschung",
+  "credits":6
+},
+{
+  "name":"Kognitive Neurowissenschaften",
+  "credits":6
+},
+{
+  "name":"Klinische Psychologie, Psychotherapie, Gesundheitspsychologie",
+  "credits":9
+},
+{
+  "name":"Wahlpflicht",
+  "credits":6
+},
+{
+  "name":"EBW Englisch",
+  "credits":3
+},
+{
+  "name":"Bachelorarbeit",
+  "credits":12
+}
+
+]

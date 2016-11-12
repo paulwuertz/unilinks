@@ -1,0 +1,436 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>uninoten</title>
+    <link rel="stylesheet" href="http://www.p4w5.eu/noten/static/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://www.p4w5.eu/noten/static/style.css" />
+    
+    <link rel="stylesheet" href="http://www.p4w5.eu/noten/static/bootstrap-slider.min.css" />
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <h1 class="top-link"><a class="navbar-brand" href="http//www.p4w5.eu/">uninoten</a></h1>
+        </div>
+
+        <ul class="nav navbar-nav navbar-left">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Noten
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="nav-divider"></li>
+            
+            <li><a href="http://www.p4w5.eu/noten/et_gs">Elektrotechnik - Grundstudium</a></li>
+            <li class="nav-divider"></li>
+            
+                
+                    <li><a href="http://www.p4w5.eu/noten/et_it">Hauptstudium - Informationstechnik</a></li>
+                
+                    <li><a href="http://www.p4w5.eu/noten/et_mel">Hauptstudium - Mikroelektronik</a></li>
+                
+                    <li><a href="http://www.p4w5.eu/noten/et_eet">Hauptstudium - Elektroenergietechnik</a></li>
+                
+                    <li><a href="http://www.p4w5.eu/noten/et_amr">Hauptstudium - Automatisierungstechnik</a></li>
+                
+                    <li><a href="http://www.p4w5.eu/noten/et_gmm">Hauptstudium - Geräte- und Medizintechnik</a></li>
+                
+            
+            <li class="nav-divider"></li>
+
+          
+            <li><a href="http://www.p4w5.eu/noten/ist_gs">Informationssystemtechnik - Grundstudium</a></li>
+            <li class="nav-divider"></li>
+            
+            <li class="nav-divider"></li>
+
+          
+            <li><a href="http://www.p4w5.eu/noten/psy_ba">Psychologie - Grundstudium</a></li>
+            <li class="nav-divider"></li>
+            
+            <li class="nav-divider"></li>
+
+          
+        </ul>
+    </div>
+</nav>
+    <div class="outer">
+        
+
+<div class="alert alert-dismissible alert-success">
+  <button type="button" class="close" data-dismiss="alert">×</button>
+  <strong>Die Berechnung wird übrigens in der URL gespeichert. Keine Daten werden zum Server gesendet, 100% anonym.</strong><br>
+  Wenn du deine Ergebnisse sichern willst, dann kopiere den Link und rufe ihn das nächste mal mit deinen URL Parametern auf.<br>
+  Um die Note zu berechnen wird einfach alles Gewichtet nach Credits addiert, also Mathe I macht 11/108 deiner Note im Vordiplom aus. So steht es im Anhang von der <a href="https://tu-dresden.de/ing/elektrotechnik/studium/beratung-und-service/studiendokumente-und-ordnungen">DPO</a><br>
+</div>
+
+<form class="form-horizontal">
+<fieldset>
+
+  <div class="form-group">
+    <label for="usr">Deine persönliche URL:</label>
+    <input type="text" class="form-control" id="usrURL">
+  </div>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <div class="row">
+    <div class="col-xs-2">
+        <h5>Modulname</h5>
+    </div>
+    <div class="col-xs-8">
+        <h5>Note</h5>
+    </div>
+    <div class="col-xs-1">
+        <h5>Credits</h5>
+    </div>
+    <div class="col-xs-1">
+        <h5>Multipl.</h5>
+    </div>
+  </div>
+
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Aufbau- und Verbindungstechnik der Elektronik
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider0" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits0 noten-col col-md-1">
+              4
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul0" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Integrierte Analogschaltungen
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider1" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits1 noten-col col-md-1">
+              4
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul1" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Physik ausgewählter Bauelemente
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider2" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits2 noten-col col-md-1">
+              6
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul2" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Mikrosystem- und Halbleitertechnologie
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider3" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits3 noten-col col-md-1">
+              12
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul3" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Rechnergestützter Schaltkreisentwurf
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider4" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits4 noten-col col-md-1">
+              8
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul4" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Hauptseminar Mikroelektronik
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider5" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits5 noten-col col-md-1">
+              4
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul5" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Schaltungstechnik
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider6" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits6 noten-col col-md-1">
+              10
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul6" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Numerische Mathematik
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider7" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits7 noten-col col-md-1">
+              4
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul7" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Theoretische Elektrotechnik
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider8" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits8 noten-col col-md-1">
+              10
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul8" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Mess- und Sensortechnik
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider9" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits9 noten-col col-md-1">
+              4
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul9" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Diplomarbeit
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider10" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits10 noten-col col-md-1">
+              30
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul10" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Studienarbeit
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider11" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits11 noten-col col-md-1">
+              12
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul11" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Wahlpflich I
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider12" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits12 noten-col col-md-1">
+              7
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul12" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Wahlpflich II
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider13" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits13 noten-col col-md-1">
+              7
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul13" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Wahlpflich III
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider14" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits14 noten-col col-md-1">
+              7
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul14" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Wahlpflich IV
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider15" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits15 noten-col col-md-1">
+              7
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul15" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr>
+      <div class="row noten-row">
+          <div class="col-md-2">
+              Wahlpflich V
+          </div>
+          <div class="sliderWrapper col-xs-8">
+            
+              <input id="slider16" class="slider sliderNoten" type="text" name="somename" data-provide="slider" data-slider-min="1" data-slider-max="5" data-slider-step="0.1" data-slider-value="5" data-slider-tooltip="always"x>
+          </div>
+          <div class="credits16 noten-col col-md-1">
+              7
+          </div>
+          <div class="noten-col col-xs-1">
+              <input id="mul16" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+          </div>
+      </div>
+  
+      <hr><hr>
+
+      <div class="row">
+        <div class="col-xs-2">
+            <h5>SUMME</h5>
+        </div>
+        <div class="col-md-8">
+        </div>
+        <div class="noten-col col-xs-1">
+            <input id="sumC" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+        </div>
+        <div class="noten-col col-xs-1">
+            <input id="sum" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-2">
+            <h5>ENDNOTE</h5>
+        </div>
+        <div class="col-xs-8">
+        </div>
+        <div class="col-xs-1">
+        </div>
+        <div class="noten-col col-xs-1">
+            <input id="res" type="text" disabled="true" class="form-control bfh-number col-xs-12">
+        </div>
+      </div>
+
+      <hr>
+
+
+</fieldset>
+</form>
+
+
+<script type="text/javascript">var notenrows=17;</script>
+<script type="text/javascript" src="http://www.p4w5.eu/noten/static/bootstrap-slider.min.js"></script>
+<script type="text/javascript" src="http://www.p4w5.eu/noten/static/noten.js"></script>
+
+
+
+
+    Bei Interesse oder Lust etwas mit einzupflegen <a href="https://github.com/paulwuertz/uninoten">hier das Repo...</a>
+    </div>
+    <script type="text/javascript" src="http://www.p4w5.eu/noten/static/jquery.js"></script>
+    <script type="text/javascript" src="http://www.p4w5.eu/noten/static/bootstrap.min.js"></script>
+    
+<script type="text/javascript">var notenrows=17;</script>
+<script type="text/javascript" src="http://www.p4w5.eu/noten/static/bootstrap-slider.min.js"></script>
+<script type="text/javascript" src="http://www.p4w5.eu/noten/static/noten.js"></script>
+
+</body>
+</html>

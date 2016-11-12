@@ -2,19 +2,21 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>My site</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <title>uninoten</title>
+    <link rel="stylesheet" href="{{ CONST.url }}static/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ CONST.url }}static/style.css" />
+    {% block style %}{% endblock style %}
 </head>
 <body>
-
+    {% include "navbar.html" %}
     <div class="outer">
-        <h1><a >unilinks</a></h1>
         {% block content %}
             <p>Default content to be displayed</p>
         {% endblock content %}
+    Bei Interesse oder Lust etwas mit einzupflegen <a href="https://github.com/paulwuertz/uninoten">hier das Repo...</a>
     </div>
-    <script type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ CONST.url }}static/jquery.js"></script>
+    <script type="text/javascript" src="{{ CONST.url }}static/bootstrap.min.js"></script>
+    {% block script %}{% endblock script %}
 </body>
 </html>
